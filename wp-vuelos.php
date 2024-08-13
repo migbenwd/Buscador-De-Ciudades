@@ -3,7 +3,7 @@
 Plugin Name: WP Vuelos
 Description: Plugin para un formulario de búsqueda de vuelos responsive
 Version: 1.0
-Author: Tu Nombre
+Author: migben.com
 */
 
 define('WPGRP_DIR',plugin_dir_path(__FILE__));
