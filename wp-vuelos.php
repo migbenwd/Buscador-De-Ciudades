@@ -9,6 +9,20 @@ Author: migben.com
 define('WPGRP_DIR',plugin_dir_path(__FILE__));
 define('WPGRP_URL',plugin_dir_url(__FILE__));
 
+// Carga el dominio de texto para las traducciones
+//load_plugin_textdomain( 'mi-plugin', false, dirname( __FILE__ ) . '/languages' );
+
+
+
+function twentytwenty_add_meta_tags() {
+  echo '<meta name="description" content="migben description" />' . "\n";
+  echo '<link rel="gettext" type="application/x-po" href="' , WPGRP_URL . 'languages/es/LC_MESSAGES/es.po" />' . "\n";
+  
+  }
+  add_action( 'wp_head', 'twentytwenty_add_meta_tags');
+
+
+
 
 // Enqueue scripts y estilos
 function wp_vuelos_enqueue_scripts() {
@@ -38,7 +52,6 @@ add_action( 'wp_enqueue_scripts', 'wp_vuelos_enqueue_scripts' );
 function wp_vuelos_form() {
   // Obtener el contenido del archivo
   $form_content = file_get_contents( plugin_dir_path( __FILE__ ) . 'templates/form-vuelos.php' );
-  
   // Retornar el contenido
   return $form_content;
 }

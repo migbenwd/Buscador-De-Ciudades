@@ -3,11 +3,10 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 text-center" style="margin-bottom:40px;">
-					<h2>Country-Region DropDown Menu</h2>
+					<h2>Lista Desplegable Pais/Ciudad</h2>
 				</div>
-				<div class="col-md-12">
+				<div class="col-md-8">
 						<form class="form-horizontal">
-							<p>Example: Country-Region DropDown Menu with semantic</p>
 							<div class="form-group">
 								<label class="col-sm-2 control-label">Country</label>
 								<div class="col-sm-10">
