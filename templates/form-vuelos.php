@@ -5,6 +5,7 @@
 				<div class="col-md-12 text-center" style="margin-bottom:40px;">
 					<h2>Lista Desplegable Pais/Ciudad</h2>
 				</div>
+
 				<div class="col-md-8">
 						<form class="form-horizontal">
 							<div class="form-group">
@@ -20,8 +21,8 @@
 								</div>
 							</div>
 						</form>
-
 				</div>
+
 			</div>
 		</div>
 </html>
