@@ -37,6 +37,8 @@ wp_enqueue_style( 'migben-bootstrap-css-5', 'https://maxcdn.bootstrapcdn.com/boo
 wp_enqueue_script( 'migben-jquery-6', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js', array(), '3.3.7', false);
 
 wp_enqueue_script( 'migben-jquery-7', WPGRP_URL .  'assets/js/geodatasource-cr.min.js', array(), '1.0.0', false);
+wp_enqueue_script( 'migben-jquery-7.1', WPGRP_URL .  'assets/js/geodatasource-cr-2.min.js', array(), '1.0.0', false);
+
 wp_enqueue_style( 'migben-geo-css-8', WPGRP_URL .  'assets/css/geodatasource-countryflag.css' );
 	
 wp_enqueue_script( 'migben-jquery-9', 'https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js', array(), '1.0.0', false);

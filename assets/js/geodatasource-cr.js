@@ -14,8 +14,8 @@
     "use strict";
 
     var gdsClass = "gds-cr";
-    var countryString = "Please select a country.";
-    var regionString = "Please select a region.";
+    var countryString = "Please select a country";
+    var regionString = "Please select a region";
     var showEmptyCountryOption = true;
     var showEmptyRegionOption = true;
     var country_region = [];
