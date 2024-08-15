@@ -2,7 +2,7 @@
 <html>
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12 text-center" style="margin-bottom:40px;">
+				<div class="col-md-11 text-center" style="margin-bottom:40px;">
 					<h2>Buscador De Vuelos</h2>
 				</div>
 
